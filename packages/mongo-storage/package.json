@@ -1,0 +1,16 @@
+{
+  "name": "@biscottino/mongo-storage",
+  "version": "0.0.1",
+  "license": "(Apache-2.0 OR MIT)",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "dependencies": {
+    "@biscottino/session": "^0.0.1",
+    "lodash.omit": "^4.5.0",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/lodash.omit": "4.5.4",
+    "@types/mongodb": "3.1.15"
+  }
+}
