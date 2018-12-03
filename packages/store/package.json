@@ -1,0 +1,7 @@
+{
+  "name": "@biscottino/store",
+  "version": "0.0.2",
+  "license": "(Apache-2.0 OR MIT)",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts"
+}

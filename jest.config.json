@@ -1,0 +1,9 @@
+{
+  "collectCoverageFrom": [
+    "<rootDir>/packages/memory-store/src/*.ts",
+    "<rootDir>/packages/mongo-store/src/*.ts",
+    "<rootDir>/packages/session/src/*.ts"
+  ],
+  "testEnvironment": "mongo",
+  "testMatch": ["<rootDir>/packages/*/src/*.test.ts"]
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "strict": true,
+    "target": "es2018"
+  },
+  "references": [
+    { "path": "packages/memory-store" },
+    { "path": "packages/mongo-store" },
+    { "path": "packages/session" },
+    { "path": "packages/store" }
+  ]
+}
