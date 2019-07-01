@@ -131,11 +131,13 @@ export default class Session<S extends Store<T>, T> {
       const key = this.identify(context);
       const prev = await adapter.load(key);
       const state = new State(prev);
-      let error: any;
+      let hasError = false;
+      let errorValue: any;
 
       CACHE.set(context, state);
-      await next().catch(e => {
-        error = e;
+      await next().catch(error => {
+        errorValue = error;
+        hasError = true;
       });
 
       const current = state.read();
@@ -144,8 +146,8 @@ export default class Session<S extends Store<T>, T> {
         await adapter.update(key, current);
       }
 
-      if (error != null) {
-        throw error;
+      if (hasError) {
+        throw errorValue;
       }
     };
   }
