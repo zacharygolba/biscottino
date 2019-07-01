@@ -2,9 +2,14 @@
   "command": {
     "bootstrap": {
       "ci": false,
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
-  "packages": [".", "packages/*"],
-  "version": "0.0.2"
+  "packages": [
+    ".",
+    "packages/*"
+  ],
+  "version": "1.0.0"
 }

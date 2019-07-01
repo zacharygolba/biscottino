@@ -1,11 +1,11 @@
 {
   "name": "@biscottino/mongo-store",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "(Apache-2.0 OR MIT)",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "dependencies": {
-    "@biscottino/store": "0.0.2",
+    "@biscottino/store": "^1.0.0",
     "lodash": "4.17.11",
     "mongodb": "3.2.7"
   },
