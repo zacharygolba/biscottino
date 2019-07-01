@@ -370,7 +370,7 @@
         "signature": "62616fbead01ddb5ca94dfe2581d8310d1afd7de8494a601f852736d2292e74a"
       },
       "/users/zacharygolba/src/biscottino/packages/session/src/lib.ts": {
-        "version": "1e8f216e357dfca485a595319be7d2acc053fb04fc1df1ebaaa55660e0913027",
+        "version": "817fd6c1bb592fde2bb9425b8a94c8cdabc456cc9fee0c15a23c80a39d2461ed",
         "signature": "75bf32fe86680105001bc651ca33c313dcb08d5c645e7b6df559800b9cd84e1d"
       },
       "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts": {
@@ -1153,11 +1153,6 @@
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/src/lib.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/immer/dist/immer.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/store/dist/lib.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts"
-      ],
       "/users/zacharygolba/src/biscottino/node_modules/buffer/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1176,6 +1171,207 @@
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/assert.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/buffer.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/child_process.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/cluster.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/child_process.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/console.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/constants.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/crypto.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dgram.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/domain.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/fs.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http2.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/fs.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/https.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/inspector.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/module.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/os.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/path.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/async_hooks.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/process.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/punycode.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/querystring.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/readline.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/repl.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/readline.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/timers.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/crypto.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/trace_events.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tty.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/querystring.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/v8.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/zlib.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1222,37 +1418,54 @@
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/zlib.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/globals.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/base.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/accepts/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/cookies/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/accepts/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http2.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/http-assert/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa-compose/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa-compose/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts",
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/cookies/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/range-parser/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express-serve-static-core/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/connect/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/range-parser/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/mime/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/serve-static/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/mime/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/connect/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1271,268 +1484,66 @@
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/connect/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/cookies/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/connect/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express-serve-static-core/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/http-assert/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa-compose/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/accepts/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/cookies/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/range-parser/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http2.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/http-assert/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa-compose/index.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/serve-static/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/mime/index.d.ts",
+      "/users/zacharygolba/src/biscottino/packages/session/src/lib.ts": [
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/immer/dist/immer.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/store/dist/lib.d.ts",
+        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts"
+      ],
+      "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/accepts/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__generator/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/async_hooks.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__traverse/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/async_hooks.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/buffer.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/child_process.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/cluster.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/child_process.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/console.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/constants.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/crypto.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/crypto.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/https.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http2.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/fs.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tls.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dgram.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/dns.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/tty.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/http.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/net.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/domain.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/zlib.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/v8.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/readline.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/repl.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/readline.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/fs.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/stream.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/inspector.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/events.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/module.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/os.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/path.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/process.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/punycode.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/querystring.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/url.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/querystring.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/timers.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/trace_events.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/yargs/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/stack-utils/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/jest/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/index.d.ts",
-        "/users/zacharygolba/src/biscottino/node_modules/@types/jest-diff/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/types.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/types.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/jest-diff/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-reports/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-report/index.d.ts",
-        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-report/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__template/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1545,56 +1556,45 @@
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__template/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__traverse/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/users/zacharygolba/src/biscottino/node_modules/@types/istanbul-lib-coverage/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/node_modules/@types/babel__generator/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
+      "/users/zacharygolba/src/biscottino/node_modules/@types/jest-diff/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/types.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/http-assert/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/types.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/mime/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/@types/jest/index.d.ts": [
+        "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/index.d.ts",
+        "/users/zacharygolba/src/biscottino/node_modules/@types/jest-diff/index.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/range-parser/index.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/@types/stack-utils/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/keygrip/index.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/globals.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts"
-      ],
-      "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/vm.d.ts": [
+      "/users/zacharygolba/src/biscottino/node_modules/@types/yargs/index.d.ts": [
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/util.d.ts",
         "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -1692,7 +1692,6 @@
       "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/http-assert/index.d.ts",
       "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa-compose/index.d.ts",
       "/users/zacharygolba/src/biscottino/packages/session/node_modules/@types/koa/index.d.ts",
-      "/users/zacharygolba/src/biscottino/packages/session/src/lib.ts",
       "/users/zacharygolba/src/biscottino/node_modules/@babel/types/lib/index.d.ts",
       "/users/zacharygolba/src/biscottino/node_modules/@types/babel__generator/index.d.ts",
       "/users/zacharygolba/src/biscottino/node_modules/@types/babel__traverse/index.d.ts",
@@ -1707,7 +1706,8 @@
       "/users/zacharygolba/src/biscottino/node_modules/jest-diff/build/index.d.ts",
       "/users/zacharygolba/src/biscottino/node_modules/@types/jest/index.d.ts",
       "/users/zacharygolba/src/biscottino/node_modules/@types/stack-utils/index.d.ts",
-      "/users/zacharygolba/src/biscottino/node_modules/@types/yargs/index.d.ts"
+      "/users/zacharygolba/src/biscottino/node_modules/@types/yargs/index.d.ts",
+      "/users/zacharygolba/src/biscottino/packages/session/src/lib.ts"
     ]
   },
   "version": "3.5.2"

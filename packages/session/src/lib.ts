@@ -103,12 +103,13 @@ export default class Session<S extends Store<T>, T> {
       bytes = Buffer.from(value, "base64");
     } else {
       bytes = Buffer.from(ObjectId.generate(), "hex");
-      context.cookies.set(key, bytes.toString("base64"), {
-        ...options,
-        secure: https,
-        signed: true,
-      });
     }
+
+    context.cookies.set(key, bytes.toString("base64"), {
+      ...options,
+      secure: https,
+      signed: true,
+    });
 
     return bytes.toString("hex");
   }
@@ -130,14 +131,21 @@ export default class Session<S extends Store<T>, T> {
       const key = this.identify(context);
       const prev = await adapter.load(key);
       const state = new State(prev);
+      let error: any;
 
       CACHE.set(context, state);
-      await next();
+      await next().catch(e => {
+        error = e;
+      });
 
       const current = state.read();
 
       if (current !== prev) {
         await adapter.update(key, current);
+      }
+
+      if (error != null) {
+        throw error;
       }
     };
   }

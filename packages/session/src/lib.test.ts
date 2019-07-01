@@ -71,7 +71,7 @@ describe("Session", () => {
       subject = session.middleware();
     });
 
-    it("creates a cookie if the session is new", async () => {
+    it("sets a cookie header with a new or existing id", async () => {
       const get = jest.spyOn(context.cookies, "get");
       const set = jest.spyOn(context.cookies, "set");
       const key = ObjectId.generate();
@@ -82,7 +82,7 @@ describe("Session", () => {
       await subject(context, next);
       await subject(context, next);
 
-      expect(set).toHaveBeenCalledTimes(1);
+      expect(set).toHaveBeenCalledTimes(2);
       expect(set).toHaveBeenLastCalledWith(session.options.key, expect.any(String), {
         domain: session.options.domain,
         path: session.options.path,
@@ -107,6 +107,23 @@ describe("Session", () => {
         });
       });
 
+      expect(session.store.spies.update).toHaveBeenCalledTimes(1);
+      expect(session.store.spies.update).toHaveBeenCalledWith(expect.any(String), {
+        isAuthenticated: true,
+      });
+    });
+
+    it("propagates downstream errors", async () => {
+      const error = new Error("Test");
+      const promise = subject(context, async () => {
+        session.for(context).write(draft => {
+          draft.isAuthenticated = true;
+        });
+
+        throw error;
+      });
+
+      await promise.catch((e: any) => expect(e).toBe(error));
       expect(session.store.spies.update).toHaveBeenCalledTimes(1);
       expect(session.store.spies.update).toHaveBeenCalledWith(expect.any(String), {
         isAuthenticated: true,
