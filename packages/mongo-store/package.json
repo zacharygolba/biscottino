@@ -6,11 +6,11 @@
   "types": "dist/lib.d.ts",
   "dependencies": {
     "@biscottino/store": "0.0.2",
-    "lodash": "^4.17.11",
-    "mongodb": "^3.1.10"
+    "lodash": "4.17.11",
+    "mongodb": "3.2.7"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.118",
-    "@types/mongodb": "3.1.15"
+    "@types/lodash": "4.14.135",
+    "@types/mongodb": "3.1.28"
   }
 }

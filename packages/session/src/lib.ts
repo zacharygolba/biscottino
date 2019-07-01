@@ -51,7 +51,7 @@ export class State<T> {
    * session will be update to reflect the given changes.
    */
   write(recipe: (value: Draft<T>) => T | void): void {
-    this.value = produce(this.value, recipe);
+    this.value = produce(this.value, recipe) as T;
   }
 }
 

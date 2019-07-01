@@ -9,9 +9,9 @@
     "target": "es2018"
   },
   "references": [
-    { "path": "packages/memory-store" },
-    { "path": "packages/mongo-store" },
+    { "path": "packages/store" },
     { "path": "packages/session" },
-    { "path": "packages/store" }
+    { "path": "packages/mongo-store" },
+    { "path": "packages/memory-store" }
   ]
 }
