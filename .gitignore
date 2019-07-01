@@ -13,3 +13,4 @@ yarn.lock
 .vscode/
 *.DS_Store
 *.log
+*.tsbuildinfo
