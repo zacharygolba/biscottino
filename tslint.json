@@ -3,6 +3,12 @@
   "rules": {
     "function-name": false,
     "import-name": false,
-    "prettier": [true, ".prettierrc"]
+    "prettier": [
+      true,
+      {
+        "trailingComma": "all",
+        "printWidth": 100
+      }
+    ]
   }
 }

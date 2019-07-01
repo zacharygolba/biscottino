@@ -63,7 +63,7 @@ describe("Session", () => {
   });
 
   describe("#middleware()", () => {
-    let context: jest.Mocked<Context>;
+    let context: Context;
     let subject: Middleware;
 
     beforeEach(() => {

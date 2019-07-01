@@ -5,23 +5,23 @@
   "private": true,
   "scripts": {
     "build": "tsc --build",
-    "clean": "rm -rf *.log coverage packages/*/dist",
+    "clean": "rm -rf *.log coverage tsconfig.tsbuildinfo packages/*/{dist,tsconfig.tsbuildinfo}",
     "lint": "tslint --project tsconfig.json",
     "test": "jest --config jest.config.json --preset ts-jest"
   },
   "devDependencies": {
-    "@types/node": "10.12.11",
-    "@types/jest": "23.3.10",
-    "codecov": "^3.1.0",
-    "jest": "^23.6.0",
-    "jest-environment-mongo": "^0.0.1",
-    "lerna": "^3.5.0",
-    "prettier": "^1.15.2",
-    "ts-jest": "^23.10.5",
-    "tslint": "^5.11.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.17.0",
-    "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^3.1.6"
+    "@types/node": "12.0.10",
+    "@types/jest": "24.0.15",
+    "codecov": "3.5.0",
+    "jest": "24.8.0",
+    "jest-environment-mongo": "0.0.1",
+    "lerna": "3.15.0",
+    "prettier": "1.18.2",
+    "ts-jest": "24.0.2",
+    "tslint": "5.18.0",
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.5.2"
   }
 }
