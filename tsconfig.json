@@ -4,6 +4,7 @@
     "composite": true,
     "esModuleInterop": true,
     "noEmit": true,
+    "skipLibCheck": true,
     "module": "commonjs",
     "strict": true,
     "target": "es2018"

@@ -1,14 +1,14 @@
 import Store from "@biscottino/store";
 import { omit, size } from "lodash";
-import { Collection, FilterQuery, ObjectId, MongoClient } from "mongodb";
+import { Collection, FilterQuery, ObjectId, MongoClient, MongoClientOptions } from "mongodb";
 
-const filterByKey = (key: string) => ({
+const filterByKey = (key: string): FilterQuery<Document> => ({
   query: {
     _id: new ObjectId(key),
   },
 });
 
-type Document<T> = Partial<T> & { _id: ObjectId; expireAt: number };
+type Document<T = {}> = Partial<T> & { _id?: ObjectId; expireAt?: number };
 
 export interface Options {
   collection: string;
@@ -30,9 +30,16 @@ export default class MongoStore<T> extends Store<T> {
 
   constructor(uri: string, options: Partial<Options> = {}) {
     super();
-    this.client = new MongoClient(uri, { useNewUrlParser: true });
+    this.client = new MongoClient(uri, MongoStore.getClientOptions());
     this.options = { collection: "sessions", timeout: 24 * 60 * 60 * 1000 };
     Object.assign(this.options, options);
+  }
+
+  static getClientOptions(): MongoClientOptions {
+    return {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    };
   }
 
   async close(force?: boolean): Promise<void> {
