@@ -19,10 +19,11 @@ describe("MongoStore", () => {
   });
 
   beforeAll(async () => {
-    const uri = await mongoServer.getUri();
+    const clientOptions = MongoStore.getClientOptions();
+    const serverUri = await mongoServer.getUri();
 
-    client = new MongoClient(uri, { useNewUrlParser: true });
-    subject = new MongoStore(uri);
+    client = new MongoClient(serverUri, clientOptions);
+    subject = new MongoStore(serverUri);
 
     await client.connect();
     await subject[Store.adapter].setup();

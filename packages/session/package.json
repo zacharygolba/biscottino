@@ -7,11 +7,11 @@
   "dependencies": {
     "@biscottino/store": "^1.0.0",
     "bson-objectid": "1.3.0",
-    "immer": "3.1.3"
+    "immer": "4.0.0"
   },
   "devDependencies": {
     "@biscottino/memory-store": "^1.0.0",
-    "@shopify/jest-koa-mocks": "2.1.3",
+    "@shopify/jest-koa-mocks": "2.1.5",
     "@types/koa": "2.0.48",
     "koa": "2.7.0"
   }
